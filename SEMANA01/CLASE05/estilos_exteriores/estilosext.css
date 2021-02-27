@@ -1,3 +1,26 @@
 p{
     color: blue;
+    font-size: 50px;
+}
+/*
+SINTAXIS CSS
+h1 ES SELECTOR {
+PROPIEDAD : VALOR
+}
+ */
+ h1{
+     color: rgb(43, 255, 0);
+     font-size: 100PX;
+ }
+
+ body {
+     background-color: black;
+text-align: center;
+}
+header {
+    background-color: cornsilk;
+}
+small
+{
+    font-size: 40px;
 }
