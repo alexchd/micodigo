@@ -1,6 +1,6 @@
-p{
-    color: blue;
-    font-size: 50px;
+p {
+  color: blue;
+  font-size: 50px;
 }
 /*
 SINTAXIS CSS
@@ -8,42 +8,49 @@ h1 ES SELECTOR {
 PROPIEDAD : VALOR
 }
  */
- h1{
-     color: rgb(43, 255, 0);
-     font-size: 40PX;
- }
+h1 {
+  color: rgb(43, 255, 0);
+  font-size: 40px;
+}
 
- body {
-     background-color: black;
-text-align: center;
+body {
+  background-color: black;
+  text-align: center;
 }
 header {
-    background-color: cornsilk;
+  background-color: cornsilk;
 }
-small
-{
-    font-size: 40px;
+small {
+  font-size: 40px;
 }
-.amarillo{
-    background-color: rgb(133, 220, 20);
-    font-size: 15px;
-    text-align: start;
+.amarillo {
+  background-color: rgb(133, 220, 20);
+  font-size: 15px;
+  text-align: start;
 }
-.verde{
-    background-color: rgb(20, 220, 110);
-    font-size: 20px;
-    text-align: center;
+.verde {
+  background-color: rgb(20, 220, 110);
+  font-size: 20px;
+  text-align: center;
 }
 #pie {
-    background-color: cyan;
-    font-weight: bold;
-    font-size: 30px;
+  background-color: cyan;
+  font-weight: bold;
+  font-size: 30px;
 }
-img{
-    border-radius: 10px;
+img {
+  border-radius: 10px;
 }
-.inputestilos{
-    background-color: darkcyan;
-    caret-color: rgb(204, 16, 16);
-    color: white;
+img:hover {
+  text-align: right;
+  height: 400px;
+}
+.inputestilos {
+  background-color: darkcyan;
+  caret-color: rgb(204, 16, 16);
+  color: white;
+}
+form > label + input {
+  font-size: 100px;
+  background-color: wheat;
 }
