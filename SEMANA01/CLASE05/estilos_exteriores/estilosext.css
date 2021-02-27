@@ -24,3 +24,12 @@ small
 {
     font-size: 40px;
 }
+.mundo{
+    background-color: crimson;
+    font-size: 50px;
+}
+#lugar {
+    background-color: cyan;
+    font-weight: bold;
+    font-size: 50px;
+}
