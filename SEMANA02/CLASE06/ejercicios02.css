@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans+Condensed:wght@300&display=swap');
+#titulo {
+    text-align: center;
+    background-color: blue;
+    color: cornsilk;
+}
+#restaurante{
+    color: crimson;
+}
+#color1{
+    color: darkblue;
+}
+#color2{
+    color: rgb(0, 139, 23);
+}
+#color3{
+    color: rgb(90, 139, 0);
+}
+#color4{
+    color: rgb(209, 14, 14);
+}
+#color5{
+    color: rgb(10, 149, 230);
+}
+.cancion    {
+    font-family:'Akaya Telivigala', cursiva;;
+}
+#fuente{
+    font-family: 'Akaya Telivigala', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+}
