@@ -1,0 +1,25 @@
+#texto-punto-bordes {
+    border-style: dotted;
+}
+#texto-borde-lineas {
+    border-style: dashed;
+}
+#tex-solido {
+    border-style: solid;
+}
+#tex-doble {
+    border-style: double;
+}
+input {
+    border: none;
+    background-color: teal;
+}
+h1 {
+    border-style: outset;
+}
+#text-borde-inset {
+    border-style: inset;
+}
+#text-multiborde {
+    border-style: double dashed solid double;
+}

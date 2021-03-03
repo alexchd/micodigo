@@ -1,0 +1,12 @@
+.artista {
+    background-image: url(https://townsquare.media/site/366/files/2020/09/ac-dc-angus-young-playing-guitar-with-his-foot-in-the-air.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+}
+#conetenedor-imagen{
+    text-align: center;
+    
+}
