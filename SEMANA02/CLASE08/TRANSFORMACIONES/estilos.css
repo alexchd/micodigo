@@ -1,0 +1,34 @@
+#girar {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(236, 75, 12);
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 30px;
+    transform: rotate(180deg);
+    text-align: center;
+    
+}
+#girar2 {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 30px;
+    transform: skewY(225deg);
+    
+}
+body {
+    text-align: center;
+
+}
+#crecer {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(10, 216, 37);
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 30px;
+    transform: scaleY(1.25);
+}

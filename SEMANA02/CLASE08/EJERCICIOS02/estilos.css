@@ -1,0 +1,9 @@
+#jaja {
+    filter: grayscale(100%);
+}
+body {
+    background-image: linear-gradient(to left,green, red);
+    text-align: center;
+#blur {
+filter: blur(20px);
+}
