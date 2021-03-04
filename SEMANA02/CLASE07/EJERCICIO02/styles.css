@@ -18,12 +18,15 @@ input {
     border-style: double dashed;
 }
 }
-#text-insertado {
-    border-style: inset;
+#text-borde-inset {
+    border-style: dotted;
 }
 #text-multiborde {
     border-style: dotted double;
 }
 h1{
     border-style: double dotted;
+}
+#tex-doble01{
+    border-style: inset;
 }
