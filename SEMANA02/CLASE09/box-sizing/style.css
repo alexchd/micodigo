@@ -1,0 +1,38 @@
+#caja01 {
+ border: 5px solid green;
+width: 300px;
+height: 100px;
+margin-bottom: 10px;
+text-align: center;
+box-sizing: border-box;
+}
+#caja02 {
+  border: 5px solid green;
+  width: 300px;
+  height: auto;
+  padding: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+body {
+display: flex;  
+}
+#caja01 {
+ border: 5px solid green;
+ width: 300px;
+ height: 100px;
+margin-bottom: 10px;
+text-align: center;
+box-sizing: border-box;
+}
+#caja02 {
+  border: 5px solid green;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+body {
+display: flex;  
+}
