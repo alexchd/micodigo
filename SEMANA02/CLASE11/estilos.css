@@ -1,0 +1,10 @@
+body{
+    background-image: url(./assets/img/pexels-pok-rie-132037.jpg);
+    background-size: contain;
+    position: absolute;
+
+}
+* {
+    margin: 0;
+}
+#main   
