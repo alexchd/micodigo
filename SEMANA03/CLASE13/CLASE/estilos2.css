@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* pantallas EXTRA PEQUEÑAS (celulares,  hasta 600px, o sea que tienen un ancho menor a 600px) */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: tomato;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 12px;
+
+    }
+  }
+  
+  /* pantallas PEQUEÑAS (tablets en modo portrait(vertical) y celulares grandes, o sea que tienen un ancho mayor a 600 px)*/
+  @media only screen and (min-width:600px){
+      body{
+          background-color: violet;
+      }
+      img {
+          width: 400px;
+          height: 400px;
+
+      }
+  }
+  
+  /* pantallas de tamaño MEDIO (tablets en modo landscape(horizontal), o sea que tienen un ancho mayor o igual a 768px) */
+  @media only screen and (min-width:768px){
+      body{
+          background-color: yellow;
+      }
+  }
+  /* Pantallas grandes (laptops/comupatdora de escritorio,osea que tienen un ancho mayor o igual 902px */
+  @media only screen and (min-width:992px){
+      body {
+          background-color: peru;
+      }
+      img {
+          border-radius: 50%;
+          width: 300px;
+          display: block;
+      }
+  }
+  /*  Pantallas muy grandes(ejemplo laptos gamer,monitores de extra osea que tienen un ancho mayor o igual a 1200px) */
+  @media only screen and (min-width:1200px){
+      body{
+          background-color: turquoise;
+      }
+
+  }
+  
+  #texto1 {
+    font-family: 'Courgette', cursive;
+    font-size: large;
+    width: 1000px;
+    color: rgb(255, 94, 0);
+}
+    
+ img {
+        border-radius: 10%;
+        width: 1000px;
+        display: block;
+        
+    }
+  
