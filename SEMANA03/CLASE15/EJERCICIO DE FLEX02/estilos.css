@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+* {
+  margin: 0;
+}
+#contenedor-horizontal {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-between;
+}
+#contenedor-vertical {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+}
+#text-horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:no-wrap;
+    background: rgba(42, 6, 247, 0.788);
+}
+.frase {
+    color: rgba(10, 7, 7, 0.863);
+    font-size: large;
+    font-weight: bolder;
+    margin: 10px;
+    background-color: rgba(251, 253, 251, 0.925);
+}
+.foto {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  
+  box-shadow: 5px 5px 15px 5px white;
+}
+#parrafo {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+  margin-top: 20px;
+}
+#imagen {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+}
+nav {
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Libre Baskerville", serif;
+}
+#navbar {
+  justify-content: space-between;
+}
+html {
+  background: url(./assets/imag/ig9OoyenpxqdCQyABmOQBZDI0duHk2QZZmWg2Hxd4ro.jpg);
+}
+@media only screen and (max-width:320px){
+#contenedor-horizontal {
+  position: static;
+}
+#parrafo {
+  display: none;
+}
+#contenedor-vertical{
+  margin-top: 50px;
+}
+#text-horizontal{
+  flex-wrap:wrap;
+}
+.frase{
+  background-color: black;
+  color: bisque;
+}
+
+}
