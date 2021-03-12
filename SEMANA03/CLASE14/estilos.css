@@ -1,0 +1,17 @@
+#contenedor-horizontal {
+    display: flex;
+    flex-wrap: row;
+    background-color: teal;
+}
+
+#contenedor-vertical {
+    display: flex;
+    flex-wrap: column;
+    background-color: teal;
+}
+.elemento {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: tomato;
+}
