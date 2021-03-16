@@ -40,3 +40,4 @@ console.log(radicacion);
 
 let modulo = a % b;
 console.log(modulo);
+// let cuando es una variable y constant es una contante
