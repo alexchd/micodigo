@@ -7,7 +7,7 @@ function mifuncion () {
   console.log("Mi priemra funcion");
   console.log("Mi priemra funcion");
 }
- mifuncion()
+// mifuncion()
 
 function imprimeMiNombre(nombre) {
   if (nombre === "") {
