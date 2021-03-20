@@ -112,3 +112,65 @@ const binomio_de_newton_4 = function binomio_cuarta(a, b) {
 };
 
 console.log(binomio_de_newton_4(2, 3));
+
+function binomio_cubo(a,b){
+  function aalcubo(a,b){
+   return a**3
+  }
+  function medio(a,b){
+    return 3*a**2*b
+  }
+  function tercer(a,b){
+    return 3*a*b**2
+  }
+  return aalcubo(a,b) - medio(a,b) +  tercer(a,b)
+}
+
+console.log(binomio_cubo(3,2))
+
+//const
+
+const binomio_al_cubo_resta = function binomio_cubo(a,b){
+  return (
+    a**3-
+    3*a**2*b+
+    3*a*b**2
+  );
+}
+console.log(binomio_al_cubo_resta(3,2))
+
+//typeof
+
+const mi_peticion_de_servidor = [
+  {
+    nombre: "nombre1",
+    codigo: "34e23a",
+    altura: 1.8,
+  },
+  {
+    nombre: "nombre2",
+    edad: "22",
+    altura: 1.7,
+  },
+  {
+    nombre: "nombre3",
+    edad: "45",
+    altura: 1.85,
+  },
+];
+
+// tengo que implementar una funcionalidad donde voy
+//a generar un id en base al nombre y la edad multiplicada x2
+
+function generarId(nombre, codigo) {
+  console.log(typeof(codigo));
+  return nombre + (codigo % 2);
+}
+
+
+//generarId(mi_peticion_de_servidor[0].nombre,mi_peticion_de_servidor[0].edad)
+// nombre13423
+
+console.log(
+  generarId(mi_peticion_de_servidor[0].nombre, mi_peticion_de_servidor[0].codigo)
+);
