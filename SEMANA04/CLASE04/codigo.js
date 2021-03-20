@@ -31,8 +31,8 @@ let cancion = "la la la";
 switch (cancion) {
   case "cancion1":
     console.log("esta es la cancion 1");
-    for (let pasos = 0; pasos < 10;pasos++){
-        console.log("camina defrente")
+    for (let pasos = 0; pasos < 10; pasos++) {
+      console.log("camina defrente");
     }
     break;
   case "cancion2":
@@ -48,49 +48,57 @@ switch (cancion) {
     console.log("esta es la cancion 5");
     break;
   default:
-    for (let pasos = 0; pasos < 10;pasos++){
-        console.log("camina defrente")
+    for (let pasos = 0; pasos < 10; pasos++) {
+      console.log("camina defrente");
     }
     console.log("no seleccionaste nunguna cancion");
 }
 
-
-
 // FOR
 
-for (let pasos = 0; pasos < 10;pasos++){
-    console.log("camina defrente")
+for (let pasos = 0; pasos < 10; pasos++) {
+  console.log("camina defrente");
 }
 
-console.log("camina defrente")
-console.log("camina defrente")
-console.log("camina defrente")
-console.log("camina defrente")
-console.log("camina defrente")
-console.log("camina defrente")
-console.log("camina defrente")
-console.log("camina defrente")
-console.log("camina defrente")
-console.log("camina defrente")
-console.log("camina defrente")
-console.log("camina defrente")
+console.log("camina defrente");
+console.log("camina defrente");
+console.log("camina defrente");
+console.log("camina defrente");
+console.log("camina defrente");
+console.log("camina defrente");
+console.log("camina defrente");
+console.log("camina defrente");
+console.log("camina defrente");
+console.log("camina defrente");
+console.log("camina defrente");
+console.log("camina defrente");
 
-
-
-// && y logico, me sirve para unir dos condiciones 
-// || o logico , me sirve para escoger entre dos valores 
+// && y logico, me sirve para unir dos condiciones
+// || o logico , me sirve para escoger entre dos valores
 // % me sirve para obtener el resto de una division
 
-// voy a imprimir todos los numeros pares que sean menor a 300 usando for 
+// voy a imprimir todos los numeros pares que sean menor a 300 usando for
 
-let alumnos_favoritos = ["Cristiano", "Messi", "Maradona", "Pele", "Iniesta"]
-let informacion = "Mis alumnos favoritos son : "
+let alumnos_favoritos = ["Cristiano", "Messi", "Maradona", "Pele", "Iniesta"];
+let informacion = "Mis alumnos favoritos son : ";
 
-const texto = document.querySelector("p")
+const texto = document.querySelector("p");
 
-for (let indice = 0 ; indice < alumnos_favoritos.length; indice++){
-    informacion += alumnos_favoritos[indice] + ", "
+for (let indice = 0; indice < alumnos_favoritos.length; indice++) {
+  informacion += alumnos_favoritos[indice] + ", ";
 }
-console.log(informacion)
+console.log(informacion);
 
 texto.textContent = informacion;
+
+//
+
+let array_vocales = ["a", "e", "i", "o", "u"];
+let frase_vocales = "mis vocales son:";
+
+const mi_titulo = document.querySelector("h1");
+for (let i = 0; i < array_vocales.length; i++) {
+  frase_vocales = frase_vocales + array_vocales[i] + ",";
+}
+
+mi_titulo.textContent = frase_vocales;
