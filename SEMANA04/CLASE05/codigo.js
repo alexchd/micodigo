@@ -82,3 +82,33 @@ function sumarcuadrados(a, b) {
   return cuadrado(a) + cuadrado(b);
 }
 console.log(sumarcuadrados(2, 3));
+
+//BINOMIO A LA CUARTA CON FUNCION
+
+function binomio_cuarta(a, b) {
+  function suma_cuarta(a, b) {
+    return a ** 4 + b ** 4;
+  }
+  function suma_cubo(a, b) {
+    return 4 * (a ** 3 * b) + 4 * (a * b ** 3);
+  }
+  function multi_cuadrados(a, b) {
+    return 6 * a ** 2 * b ** 2;
+  }
+  return suma_cuarta(a, b) + suma_cubo(a, b) + multi_cuadrados(a, b)
+}
+console.log(binomio_cuarta(3,2))
+
+// BINOMIO A LA CUARTA CON CONST
+
+const binomio_de_newton_4 = function binomio_cuarta(a, b) {
+  return (
+    a ** 4 +
+    b ** 4 +
+    4 * (a ** 3 * b) +
+    4 * (a * b ** 3) +
+    6 * (a ** 2 * b ** 2)
+  );
+};
+
+console.log(binomio_de_newton_4(2, 3));
