@@ -13,8 +13,65 @@
     <title>Bootstrap</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Login</h1>
+
+      <form>
+        <div class="mb-3">
+          <label for="emailEjemplo" class="form-label">Correo</label>
+          <input
+            type="email"
+            class="form-control"
+            id="emailEjemplo"
+            aria-describedby="emailHelp"
+          />
+          <div id="ayuda" class="form-text">Mi pagina es segura</div>
+        </div>
+        <div class="mb-3">
+          <label for="ejemplopassword" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="ejemplopasword" />
+        </div>
+        <div class="mb-3" form-check>
+          <input type="checkbox" class="form-check-input" id="check" />
+          <label for="check" class="form-check-label">Recordar</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </form>
+    </div>
+
+     <!-- comentario -->
+
     
-    
+     <div class="container">
+      <h1>Registro</h1>
+
+      <form>
+        <div class="mb-3">
+          <label for="emailEjemplo" class="form-label">Correo</label>
+          <input
+            type="email"
+            class="form-control"
+            id="emailEjemplo"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="ejemplopassword" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="ejemplopasword" />
+        </div>
+        <div class="mb-3">
+          <div id="ayuda" class="form-text">Repetir Contraseña</div>
+          <input type="password" class="form-control" id="ejemplopassword" />
+        </div>
+        <div class="mb-3" form-check>
+          <input type="checkbox" class="form-check-input" id="check" />
+          <label for="check" class="form-check-label">Recordar</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </form>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
