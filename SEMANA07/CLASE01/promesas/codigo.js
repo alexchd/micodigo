@@ -116,4 +116,4 @@ const binomio = (a, b) => {
   });
 };
 
-binomio(2, 3);
+binomio(2, "w");
